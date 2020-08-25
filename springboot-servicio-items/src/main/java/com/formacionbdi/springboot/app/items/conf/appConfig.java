@@ -1,5 +1,6 @@
 package com.formacionbdi.springboot.app.items.conf;
 
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;

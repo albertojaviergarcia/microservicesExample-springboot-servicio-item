@@ -13,8 +13,8 @@ import org.springframework.web.client.RestTemplate;
 import com.formacionbdi.springboot.app.items.models.entity.Item;
 import com.formacionbdi.springboot.app.items.models.entity.Producto;
 
-@Service
-public class ServiceItemImpl implements IServiceItem{
+@Service("restTemplate")
+public class ItemServiceImpl implements ItemService{
 
 	@Autowired
 	private RestTemplate restTemplate; 
